@@ -1,7 +1,7 @@
 [gd_scene load_steps=35 format=3 uid="uid://cqjm2gcer1o68"]
 
-[ext_resource type="Script" path="res://Competition!}/Code/Others/character_body_2d.gd" id="1_oy02i"]
-[ext_resource type="Texture2D" uid="uid://vbns3tv2kdt" path="res://Competition!}/Characters/Alice/Alice spritesheet.png" id="2_1vnw0"]
+[ext_resource type="Script" path="res://src/entities/player/character_body_2d.gd" id="1_oy02i"]
+[ext_resource type="Texture2D" uid="uid://vbns3tv2kdt" path="res://src/entities/player/Alice/Alice spritesheet.png" id="2_1vnw0"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_8klnu"]
 atlas = ExtResource("2_1vnw0")

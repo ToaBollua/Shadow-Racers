@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Shadow Racers"
-run/main_scene="res://Competition!}/Code/Maps/Forestal Fortress.tscn"
+run/main_scene="res://src/env/maps/Forestal Fortress.tscn"
 config/features=PackedStringArray("4.1", "Mobile")
 boot_splash/use_filter=false
 config/icon="res://icon.svg"
