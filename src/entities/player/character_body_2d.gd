@@ -45,15 +45,15 @@ func _physics_process(_delta):
 	# Set the character's horizontal velocity based on its direction and speed
 	velocity.x = direction * speed * temp_speed_multiplier
 
-	# Increase the character's speed temporarily if the "ui_up" action is pressed
+	# Increase the character's speed temporarily if the up arrow key is pressed
 	if Input.is_action_pressed("ui_up"):
 		temp_speed_multiplier = 4
 	else:
 		temp_speed_multiplier = 1.0
 		is_running = false
 
-	# Make the character jump if the "ui_accept" action is just pressed and the character is on the floor
-	if Input.is_action_just_pressed("ui_accept") and (is_on_floor() or is_running):
+	# Make the character jump if the 'X' key is pressed and the character is on the floor
+	if Input.is_action_just_pressed("ui_x") and (is_on_floor() or is_running):
 		velocity.y = JUMP_VELOCITY
 		is_jumping = true
 
