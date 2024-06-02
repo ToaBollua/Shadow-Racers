@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bn7old3yx5h0n"
-path="res://.godot/imported/PERFECT BANNER.png-3948963db6d93b709c43bb016404dddf.ctex"
+path="res://.godot/imported/PERFECT BANNER.png-c616aa446f3e0b31d357732294660dec.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Competition!}/Logos, Banners and stuff/PERFECT BANNER.png"
-dest_files=["res://.godot/imported/PERFECT BANNER.png-3948963db6d93b709c43bb016404dddf.ctex"]
+source_file="res://src/img/stuff/PERFECT BANNER.png"
+dest_files=["res://.godot/imported/PERFECT BANNER.png-c616aa446f3e0b31d357732294660dec.ctex"]
 
 [params]
 

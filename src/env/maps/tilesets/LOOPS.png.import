@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dkyyvedtra0xp"
-path="res://.godot/imported/LOOPS.png-e6e8dc7c918fce26851536ddce037903.ctex"
+path="res://.godot/imported/LOOPS.png-caae07f7a97735f3a762e3e8c40b2e52.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Competition!}/Tilesets/Forestal Fortress/LOOPS.png"
-dest_files=["res://.godot/imported/LOOPS.png-e6e8dc7c918fce26851536ddce037903.ctex"]
+source_file="res://src/env/maps/tilesets/LOOPS.png"
+dest_files=["res://.godot/imported/LOOPS.png-caae07f7a97735f3a762e3e8c40b2e52.ctex"]
 
 [params]
 

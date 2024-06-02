@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://r02ojp2n75de"
-path="res://.godot/imported/placeholder.png-3bbef907d7adb88a0a5b26c274f1d8da.ctex"
+path="res://.godot/imported/placeholder.png-6230f67dbde1fc0804a27b60d9bb2dba.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Competition!}/Characters/Alice/placeholder.png"
-dest_files=["res://.godot/imported/placeholder.png-3bbef907d7adb88a0a5b26c274f1d8da.ctex"]
+source_file="res://src/entities/player/Alice/placeholder.png"
+dest_files=["res://.godot/imported/placeholder.png-6230f67dbde1fc0804a27b60d9bb2dba.ctex"]
 
 [params]
 

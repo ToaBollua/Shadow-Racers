@@ -15,6 +15,9 @@ var temp_speed_multiplier = 1.0
 # Set a flag to track whether the character is currently jumping
 var is_jumping = false
 
+# Set a flag to track whether the character is currently running
+var is_running = false
+
 # Set the strength of gravity affecting the character
 const gravity = 20
 
@@ -47,9 +50,10 @@ func _physics_process(_delta):
 		temp_speed_multiplier = 4
 	else:
 		temp_speed_multiplier = 1.0
+		is_running = false
 
 	# Make the character jump if the "ui_accept" action is just pressed and the character is on the floor
-	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
+	if Input.is_action_just_pressed("ui_accept") and (is_on_floor() or is_running):
 		velocity.y = JUMP_VELOCITY
 		is_jumping = true
 
@@ -58,13 +62,13 @@ func _physics_process(_delta):
 		anim.play("Afall")
 	elif is_jumping and velocity.y < 0:
 		anim.play("Ajump")
-	elif direction!= 0:
+	elif direction != 0:
 		anim.play("Arun")
 	else:
 		anim.play("Aidle")
 
 	# Flip the character's sprite horizontally based on its direction
-	sprite.flip_h = direction < 0 if direction!= 0 else sprite.flip_h
+	sprite.flip_h = direction < 0 if direction != 0 else sprite.flip_h
 
 	# Apply gravity to the character's vertical velocity if it is not on the floor
 	if!is_on_floor(): 

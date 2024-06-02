@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://vbns3tv2kdt"
-path="res://.godot/imported/Alice spritesheet.png-c67e47604642a87659a6b70824146bc2.ctex"
+path="res://.godot/imported/Alice spritesheet.png-1062d3102d789ccafd14cf9ea1185daa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Competition!}/Characters/Alice/Alice spritesheet.png"
-dest_files=["res://.godot/imported/Alice spritesheet.png-c67e47604642a87659a6b70824146bc2.ctex"]
+source_file="res://src/entities/player/Alice/Alice spritesheet.png"
+dest_files=["res://.godot/imported/Alice spritesheet.png-1062d3102d789ccafd14cf9ea1185daa.ctex"]
 
 [params]
 

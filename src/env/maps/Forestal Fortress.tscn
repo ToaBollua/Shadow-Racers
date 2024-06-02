@@ -1,8 +1,8 @@
 [gd_scene load_steps=7 format=3 uid="uid://g74rj5esv5ed"]
 
-[ext_resource type="Texture2D" uid="uid://duqx8w7xe55ej" path="res://Competition!}/Tilesets/Forestal Fortress/Normal Tiles.png" id="1_xlkp2"]
-[ext_resource type="Texture2D" uid="uid://dkyyvedtra0xp" path="res://Competition!}/Tilesets/Forestal Fortress/LOOPS.png" id="2_3g4l4"]
-[ext_resource type="PackedScene" uid="uid://cqjm2gcer1o68" path="res://Competition!}/Code/Others/character_body_2d.tscn" id="2_j7kh7"]
+[ext_resource type="Texture2D" uid="uid://duqx8w7xe55ej" path="res://src/env/maps/tilesets/Normal Tiles.png" id="1_xlkp2"]
+[ext_resource type="Texture2D" uid="uid://dkyyvedtra0xp" path="res://src/env/maps/tilesets/LOOPS.png" id="2_3g4l4"]
+[ext_resource type="PackedScene" uid="uid://cqjm2gcer1o68" path="res://src/entities/player/character_body_2d.tscn" id="2_j7kh7"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_n36jr"]
 resource_name = "Forestal Tiles"
