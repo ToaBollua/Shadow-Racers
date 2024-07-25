@@ -1,7 +1,7 @@
 [gd_resource type="TileSet" load_steps=5 format=3 uid="uid://b0ygwdxq2ofg1"]
 
-[ext_resource type="Texture2D" uid="uid://duqx8w7xe55ej" path="res://src/env/maps/tilesets/Normal Tiles.png" id="1_dnh46"]
-[ext_resource type="Texture2D" uid="uid://dkyyvedtra0xp" path="res://src/env/maps/tilesets/LOOPS.png" id="2_6vp33"]
+[ext_resource type="Texture2D" uid="uid://duqx8w7xe55ej" path="res://env/maps/tilesets/Normal Tiles.png" id="1_dnh46"]
+[ext_resource type="Texture2D" uid="uid://dkyyvedtra0xp" path="res://env/maps/tilesets/LOOPS.png" id="2_6vp33"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_n36jr"]
 resource_name = "Forestal Tiles"
