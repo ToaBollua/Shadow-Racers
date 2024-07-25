@@ -56,7 +56,8 @@ func _physics_process(_delta):
 		is_running = false
 
 	# Make the character jump if the 'X' key is pressed and the character is on the floor
-	if Input.is_action_just_pressed("ui_up") and (is_on_floor() or is_running):
+	# Changed to space temporarely for debug purposes.
+	if Input.is_action_just_pressed("ui_accept") and (is_on_floor() or is_running):
 		velocity.y = JUMP_VELOCITY
 		is_jumping = true
 
