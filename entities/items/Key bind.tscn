@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://db4sple3x5bl0"]
+
+[ext_resource type="Script" path="res://Button.gd" id="1_vrlen"]
+
+[node name="Button" type="Button"]
+offset_right = 8.0
+offset_bottom = 8.0
+script = ExtResource("1_vrlen")
+action = null
+
+[connection signal="toggled" from="." to="." method="_on_toggled"]
